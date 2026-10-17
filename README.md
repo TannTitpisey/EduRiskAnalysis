@@ -1,19 +1,4 @@
-# Step 18: Write `README.md`
-
-## What you will do
-
-Write project information in `README.md`.
-
-## File
-
-```text
-README.md
-```
-
-## Content
-
-```markdown
-# Lab 01: First Streamlit App
+# Lab 03: Data Loading, Layout, and Frontend Prototype
 
 ## Project Theme
 
@@ -21,13 +6,30 @@ EduRisk Analytics
 
 ## Description
 
-This is my first Streamlit web app.
+This Streamlit app is a frontend prototype for student academic monitoring.
+
+This lab continues from Lab 02 and moves the student dataset out of app.py into students.csv.
+
+The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashboard layout.
 
 ## Features
 
 - Sidebar navigation
-- Student data table
+- Home page
+- Dashboard page
+- Student Data page
+- Risk Checker page
+- About page
+- Student dataset stored in students.csv
+- CSV data loading with Pandas
+- Missing CSV file error handling
+- Risk level calculation
 - Dashboard metrics
+- Student records table
+- Student score chart
+- Course count chart
+- Data inspection section
+- Ethics reminder
 
 ## Tools Used
 
@@ -35,6 +37,13 @@ This is my first Streamlit web app.
 - Streamlit
 - Pandas
 - VS Code
+
+## Required Files
+
+- app.py
+- students.csv
+- requirements.txt
+- README.md
 
 ## How to Run
 
@@ -45,4 +54,3 @@ streamlit run app.py
 Name:
 Student ID:
 Class:
-```
